@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alex Morgan | Student & Software Developer Portfolio</title>
+  <meta name="description" content="Personal portfolio of Alex Morgan - Computer Science Student, Aspiring Full-Stack Developer, and Tech Enthusiast.">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar-header" id="header">
+    <div class="nav-container">
+      <a href="#hero" class="logo">
+        <span class="logo-accent">&lt;</span>Alex<span class="logo-accent">.dev/&gt;</span>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#achievements" class="nav-link">Achievements</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-right">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark/light mode">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <a href="#contact" class="btn btn-outline nav-btn">Hire Me</a>
+        <button class="hamburger" id="hamburger" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <div class="status-badge">
+            <span class="pulse-dot"></span>
+            Available for Internships & Projects
+          </div>
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Alex Morgan</span> 👋
+          </h1>
+          <h2 class="hero-subtitle">
+            Computer Science Student & <span class="typing-text">Frontend Developer</span>
+          </h2>
+          <p class="hero-description">
+            Passionate undergraduate student crafting high-performance, accessible, and responsive web applications. Constantly learning modern frameworks, data structures, and human-centered design.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fa-solid fa-rocket"></i> View Projects
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <i class="fa-solid fa-file-arrow-down"></i> Download Resume
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-card">
+              <span class="stat-num" data-count="15">15+</span>
+              <span class="stat-label">Projects Completed</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num" data-count="3">3.9</span>
+              <span class="stat-label">Cumulative GPA</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num" data-count="4">4+</span>
+              <span class="stat-label">Hackathons Won</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="avatar-wrapper">
+            <div class="glow-backdrop"></div>
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=700&q=80" alt="Alex Morgan Portrait" class="avatar-img">
+            <div class="floating-badge badge-top">
+              <i class="fa-solid fa-code"></i>
+              <span>Clean Code</span>
+            </div>
+            <div class="floating-badge badge-bottom">
+              <i class="fa-brands fa-react"></i>
+              <span>React & Modern Web</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Biography</span>
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">A quick introduction to my academic journey and technical interests.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card intro-card">
+            <div class="card-icon"><i class="fa-solid fa-user-graduate"></i></div>
+            <h3>Education & Background</h3>
+            <p>
+              I am currently a 3rd-year <strong>B.Tech in Computer Science & Engineering</strong> student with a keen interest in modern software engineering, web architectures, and algorithms.
+            </p>
+            <p>
+              When I'm not coding, you can find me contributing to open-source student initiatives, mentoring junior coders at our university developer club, or exploring UI design trends.
+            </p>
+
+            <ul class="personal-details">
+              <li><i class="fa-solid fa-location-dot"></i> <strong>Location:</strong> California, USA</li>
+              <li><i class="fa-solid fa-envelope"></i> <strong>Email:</strong> alex.morgan.dev@gmail.com</li>
+              <li><i class="fa-solid fa-graduation-cap"></i> <strong>Degree:</strong> B.S. in Computer Science</li>
+              <li><i class="fa-solid fa-language"></i> <strong>Languages:</strong> English, Spanish</li>
+            </ul>
+          </div>
+
+          <div class="about-card education-card">
+            <div class="card-icon"><i class="fa-solid fa-timeline"></i></div>
+            <h3>Education Timeline</h3>
+            <div class="timeline">
+              <div class="timeline-item">
+                <span class="timeline-date">2023 - Present</span>
+                <h4 class="timeline-title">B.S. in Computer Science</h4>
+                <p class="timeline-meta">State University of Technology • GPA: 3.92/4.0</p>
+                <p class="timeline-desc">Coursework: Data Structures & Algorithms, Database Systems, Web Engineering, Computer Networks.</p>
+              </div>
+              <div class="timeline-item">
+                <span class="timeline-date">2021 - 2023</span>
+                <h4 class="timeline-title">Higher Secondary Education</h4>
+                <p class="timeline-meta">Science & Mathematics • 96.5%</p>
+                <p class="timeline-desc">Elected Head of Robotics Club and founded the STEM coding camp for high school students.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Competencies</span>
+          <h2 class="section-title">Technical Skills</h2>
+          <p class="section-subtitle">Technologies, frameworks, and developer tools I leverage every day.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Frontend -->
+          <div class="skill-category">
+            <div class="category-header">
+              <i class="fa-solid fa-laptop-code"></i>
+              <h3>Frontend Development</h3>
+            </div>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>HTML5 / Semantic Web</span>
+                  <span>95%</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 95%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>CSS3 / Flexbox / Grid / SASS</span>
+                  <span>90%</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 90%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>JavaScript (ES6+)</span>
+                  <span>88%</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 88%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>React.js & Next.js</span>
+                  <span>82%</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 82%;"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Backend & Database -->
+          <div class="skill-category">
+            <div class="category-header">
+              <i class="fa-solid fa-server"></i>
+              <h3>Backend & Database</h3>
+            </div>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Node.js & Express</span>
+                  <span>80%</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 80%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Python & Flask</span>
+                  <span>78%</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 78%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>PostgreSQL & MySQL</span>
+                  <span>82%</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 82%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>MongoDB</span>
+                  <span>75%</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 75%;"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tools & Fundamentals -->
+          <div class="skill-category">
+            <div class="category-header">
+              <i class="fa-solid fa-toolbox"></i>
+              <h3>Tools & Concepts</h3>
+            </div>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Git & GitHub Workflow</span>
+                  <span>90%</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 90%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Data Structures & Algorithms</span>
+                  <span>85%</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 85%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Figma & UI Prototyping</span>
+                  <span>80%</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 80%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>RESTful APIs & Postman</span>
+                  <span>88%</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 88%;"></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Featured Work</span>
+          <h2 class="section-title">Projects Showcase</h2>
+          <p class="section-subtitle">Real-world applications, university capstones, and creative experiments.</p>
+        </div>
+
+        <div class="project-filters">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="web">Web Apps</button>
+          <button class="filter-btn" data-filter="fullstack">Full-Stack</button>
+          <button class="filter-btn" data-filter="ui">UI/UX</button>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card" data-category="web">
+            <div class="project-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=700&q=80" alt="Student Analytics Dashboard" class="project-img">
+              <div class="project-overlay">
+                <a href="#projects" class="overlay-btn" title="Live Preview"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a href="#projects" class="overlay-btn" title="Source Code"><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+            <div class="project-body">
+              <span class="project-badge">Web Application</span>
+              <h3 class="project-title">CampusPulse — Student Analytics Dashboard</h3>
+              <p class="project-desc">
+                An interactive student performance and attendance tracking platform featuring automated visual grade breakdowns and timetable reminders.
+              </p>
+              <div class="project-tech">
+                <span>JavaScript</span>
+                <span>Chart.js</span>
+                <span>CSS Grid</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card" data-category="fullstack">
+            <div class="project-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=700&q=80" alt="CyberSecure Password Vault" class="project-img">
+              <div class="project-overlay">
+                <a href="#projects" class="overlay-btn" title="Live Preview"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a href="#projects" class="overlay-btn" title="Source Code"><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+            <div class="project-body">
+              <span class="project-badge">Full-Stack</span>
+              <h3 class="project-title">Krypton — Secure Password Manager</h3>
+              <p class="project-desc">
+                End-to-end encrypted client-side vault featuring AES-GCM encryption, master password derivation with PBKDF2, and breach notification checks.
+              </p>
+              <div class="project-tech">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>Crypto API</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card" data-category="web">
+            <div class="project-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=700&q=80" alt="DevCollab Platform" class="project-img">
+              <div class="project-overlay">
+                <a href="#projects" class="overlay-btn" title="Live Preview"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a href="#projects" class="overlay-btn" title="Source Code"><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+            <div class="project-body">
+              <span class="project-badge">Web Application</span>
+              <h3 class="project-title">CodeSync — Realtime Pair Programming</h3>
+              <p class="project-desc">
+                Collaborative browser code editor supporting live syntax highlighting, multi-cursor peer syncing via WebSockets, and instant JS code execution.
+              </p>
+              <div class="project-tech">
+                <span>WebSockets</span>
+                <span>Monaco Editor</span>
+                <span>Express</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project-card" data-category="ui">
+            <div class="project-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=700&q=80" alt="EcoTrack Mobile & Web App" class="project-img">
+              <div class="project-overlay">
+                <a href="#projects" class="overlay-btn" title="Live Preview"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a href="#projects" class="overlay-btn" title="Source Code"><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+            <div class="project-body">
+              <span class="project-badge">UI/UX Design</span>
+              <h3 class="project-title">EcoTrack — Carbon Footprint Estimator</h3>
+              <p class="project-desc">
+                Minimalist, user-tested interface designed to quantify household utility consumption and encourage sustainable everyday lifestyle habits.
+              </p>
+              <div class="project-tech">
+                <span>Figma</span>
+                <span>Design Systems</span>
+                <span>CSS Variables</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section class="achievements-section" id="achievements">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Recognition</span>
+          <h2 class="section-title">Achievements & Honors</h2>
+          <p class="section-subtitle">Hackathons, academic milestones, and certifications earned along the way.</p>
+        </div>
+
+        <div class="achievements-grid">
+          <div class="achievement-card">
+            <div class="trophy-icon"><i class="fa-solid fa-trophy"></i></div>
+            <div class="achievement-content">
+              <span class="award-date">November 2025</span>
+              <h3>1st Place — National Collegiate Hackathon</h3>
+              <p>Designed an AI-powered visual accessibility tool for visually impaired students within a 36-hour sprint competing against 120 teams.</p>
+            </div>
+          </div>
+
+          <div class="achievement-card">
+            <div class="trophy-icon"><i class="fa-solid fa-award"></i></div>
+            <div class="achievement-content">
+              <span class="award-date">June 2025</span>
+              <h3>Dean's Honor List Scholar</h3>
+              <p>Awarded for maintaining a consecutive semester GPA above 3.90 in the Department of Computer Science & Engineering.</p>
+            </div>
+          </div>
+
+          <div class="achievement-card">
+            <div class="trophy-icon"><i class="fa-solid fa-certificate"></i></div>
+            <div class="achievement-content">
+              <span class="award-date">January 2025</span>
+              <h3>AWS Certified Cloud Practitioner</h3>
+              <p>Validated fundamental knowledge of cloud security, architecture, scalable storage, and high-availability serverless deployments.</p>
+            </div>
+          </div>
+
+          <div class="achievement-card">
+            <div class="trophy-icon"><i class="fa-solid fa-medal"></i></div>
+            <div class="achievement-content">
+              <span class="award-date">August 2024</span>
+              <h3>Open Source Contributor of the Month</h3>
+              <p>Recognized by the Campus Developer Guild for committing 40+ bug fixes and performance enhancements to university open-source tooling.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Connect</span>
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-subtitle">Interested in collaborating on a project or offering an internship? Let's talk!</p>
+        </div>
+
+        <div class="contact-wrapper">
+          <div class="contact-info-panel">
+            <h3>Contact Information</h3>
+            <p>Feel free to reach out directly through any of these channels or submit the contact form.</p>
+
+            <div class="contact-methods">
+              <div class="method-item">
+                <i class="fa-solid fa-envelope"></i>
+                <div>
+                  <span class="method-label">Email Me</span>
+                  <a href="mailto:alex.morgan.dev@gmail.com" class="method-val">alex.morgan.dev@gmail.com</a>
+                </div>
+              </div>
+
+              <div class="method-item">
+                <i class="fa-solid fa-phone"></i>
+                <div>
+                  <span class="method-label">Call / WhatsApp</span>
+                  <a href="tel:+15550192834" class="method-val">+1 (555) 019-2834</a>
+                </div>
+              </div>
+
+              <div class="method-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                  <span class="method-label">Current Location</span>
+                  <span class="method-val">San Francisco, CA</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="social-links">
+              <a href="https://github.com/rajasriharshanuli08-byte" target="_blank" rel="noopener" class="social-btn" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+              <a href="#" class="social-btn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="#" class="social-btn" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="#" class="social-btn" aria-label="Discord"><i class="fa-brands fa-discord"></i></a>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" required placeholder="Jane Doe">
+              </div>
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" required placeholder="jane@example.com">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" required placeholder="Internship Opportunity / Project Inquiry">
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" rows="5" required placeholder="Hello Alex, I came across your portfolio and would love to connect..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary submit-btn">
+              <i class="fa-solid fa-paper-plane"></i> Send Message
+            </button>
+            <div class="form-feedback" id="form-feedback"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p class="copyright">© 2026 Alex Morgan. Built with semantic HTML5 & modern CSS3.</p>
+      <a href="#hero" class="back-to-top" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+      </a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
